@@ -1,0 +1,93 @@
+/*
+CODIGOS DE COLOR DE OSCURO A CLARO
+#0e370f
+#244d23
+#3a6338
+#50794c
+#668f60*/
+
+/* styles.css (o styles.scss) */
+
+
+/*
+.background-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../assets/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: -100;  Asegúrate de que esté detrás de otros elementos
+  overflow: hidden; 
+}
+ */
+
+.container-fluid,
+.nav.nav-tabs {
+    background-color: #0e370f;
+  }
+
+
+  .nav-link.active,
+  .nav-link:hover,
+  .nav-link.active:hover,
+  .dropdown-item:hover {
+    background-color: #224a20 !important;
+    color: #fce6c8;
+  }
+
+/*
+  img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -100;
+    user-select: none; 
+    overflow: hidden; 
+      }
+     */
+
+  
+
+  
+  .navbar-toggler{
+    filter: invert();
+  }
+  
+
+  footer {
+    position:relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100; /* Asegúrate de que el footer esté por encima de otros elementos */
+    background-color: #0e370f !important;
+  }
+  
+  footer h6,p, span, .text-center {
+    color: #fce6c8;
+  }
+
+
+
+  .navbar {
+    background-color: #0e370f; /* Fondo del navbar */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fce6c8;     /* Color de texto de los enlaces */
+  }
+  
+  .dropdown-menu .dropdown-item {
+    color: #fce6c8;    /* Color de texto de los items del dropdown */
+  }
+  
+  .dropdown-menu {
+    background-color: #0e370f; /* Fondo del dropdown */
+  }
+  
