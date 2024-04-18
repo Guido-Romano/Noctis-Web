@@ -1,4 +1,23 @@
-# Noctis
+ANGULAR.JSON
+
+"options": {
+    "outputPath": "docs (ejemplo, aca va la carpeta donde va a ir a buscar la compilacion)",
+    "index": "src/index.html",
+    ...
+}
+
+
+para crear rama directamente en DOCS (luego poner esa misma ruta en github)
+ng build --configuration production --output-path docs --base-href /turepositorio/
+git add docs
+git commit -m "Compilación de la aplicación Angular para producción en docs"
+git push origin main
+
+comandos generales para inicializacion
+  git add .
+  git commit -m "Actualización de los archivos de producción"
+  git push
+  git push origin main
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.13.
 

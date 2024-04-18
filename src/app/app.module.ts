@@ -10,6 +10,7 @@ import { Team1Component } from './teams/team1/team1.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { StaffComponent } from './staff/staff.component';
 import { LogoComponent } from './teams/team1/logo/logo.component';
+import { ImgEquipoComponent } from './teams/img-equipo/img-equipo.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { LogoComponent } from './teams/team1/logo/logo.component';
     Team1Component,
     AboutUsComponent,
     StaffComponent,
-    LogoComponent
+    LogoComponent,
+    ImgEquipoComponent
   ],
   imports: [
     BrowserModule,
