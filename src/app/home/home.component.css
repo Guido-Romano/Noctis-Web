@@ -1,0 +1,47 @@
+
+.snip1544 {
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0px 40px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  line-height: 2.7em;
+  letter-spacing: 1.5px;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  font-size: 16px;
+  border: 3px solid #fff;
+  background-color: transparent;
+  border-radius: 0 15px 15px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  scale: 75%;
+}
+
+.snip1544:before {
+  content: "";
+  position: absolute;
+  right: -3px;
+  bottom: -3px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 35px 35px;
+  border-color: transparent transparent rgb(254, 106, 43) transparent;
+  z-index: 1;
+}
+
+.snip1544:hover,
+.snip1544.hover {
+  border-color: rgb(254, 106, 43);
+}
+
+/*
+CODIGOS DE COLOR DE OSCURO A CLARO
+#0e370f
+#244d23
+#3a6338
+#50794c
+#668f60*/
