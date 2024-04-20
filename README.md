@@ -15,7 +15,7 @@ git push origin main
 
 comandos generales para inicializacion
   git add .
-  git commit -m "Actualización de los archivos de producción"
+  git commit -m "Actualización"
   git push
   git push origin main
 
