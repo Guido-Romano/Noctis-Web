@@ -18,15 +18,20 @@ figure.snip0064 {
   background-size: cover; 
   background-repeat: no-repeat; 
   color: #244d23;
-  border: 1px solid hsla(121, 95%, 75%, 0.35);
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   transition: transform 0.2s ease-in-out; 
-  /*box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);*/
+  /*colores de glow*/
+  border: 1px solid hsla(121, 95%, 75%, 0.35);
   box-shadow: 3px 3px 1px hsl(121, 56%, 15%);
+  filter: drop-shadow(1px 1px 6px rgb(0, 128, 0, 0.65));
 }
 
-
+figure.snip0064:hover {
+  border-color: rgba(230, 110, 50, 0.85);
+  box-shadow: 3px 3px 1px rgba(230, 110, 50, 0.3);
+  filter: drop-shadow(1px 1px 6px rgb(230, 110, 50, 0.65));
+}
 
 
 
@@ -54,10 +59,9 @@ figure.snip0064 .image img {
   transform: skewX(15deg);
 }
 figure.snip0064 figcaption {
-   /* background: #230202;*/
   background-image: url("../../../assets/fondo.jpg");
-  background-size: cover; /* Esto ajusta la imagen al tamaño del contenedor */
-  background-repeat: no-repeat; /* Esto evita que la imagen se repita */
+  background-size: cover; 
+  background-repeat: no-repeat; 
   height: 100%;
   margin: 0;
   position: absolute;
@@ -121,11 +125,6 @@ figure.snip0064 a {
 
 
 
-figure.snip0064:hover {
-  /* border-color: rgba(254, 106, 43); */
-  border-color: rgba(230, 110, 50, 0.85);
-
-}
 
 .snip0064:hover figcaption h2 {
   filter: brightness(120%);
@@ -140,33 +139,28 @@ figure.snip0064:hover .image img {
 }
 
 .custom-container {
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .custom-container {
-  width: 80%; /* Aumenta el ancho total del contenedor */
+  width: 80%;
 }
 
 
+.container.text-center {
+  margin-top: 120px;
+}
 
+.container h1, h2, h3, h4, h5, h6 {
+  font-weight: bold; 
+  filter: drop-shadow(5px 5px 10px green);
+  
+}
 
-/*
-.logo{
-  transform: scale(0.35);
-  position:absolute;
-  top: -70px;
-  right: 200px;
-  z-index:100;
-  }
-
- */
-
-
-
-
-
-
-
+.container p, span, label, a, small, li {
+  margin-top: 30px;
+  filter: drop-shadow(1px 1px 1px rgb(25, 25, 25));
+}
 
 
 

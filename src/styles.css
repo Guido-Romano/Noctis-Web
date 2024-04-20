@@ -5,9 +5,10 @@
 
 body {
   /* Configuración de la imagen de fondo */
-  background: url('/assets/fondo.jpg') no-repeat center center fixed;
+  background: 
+      radial-gradient(circle, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%),
+      url('/assets/fondo.jpg') no-repeat center center fixed;
   background-size: cover; /* Asegura que la imagen de fondo se ajuste al tamaño del contenedor */
-  
   
   /* Otras configuraciones de estilo */
   width: 100vw;
@@ -18,19 +19,77 @@ body {
   top: 0;
   left: 0;
   position: relative;
+  color: #fdf8f0;
+  
 }
 
-  
-  
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif; 
-}
-
-/* Otros estilos */
-p, span {
-  font-family: 'Aldo Apache', sans-serif; 
-}
 
 * {
-color: #fdf8f0; 
+  color: #fdf8f0;
+  }
+  
+h1, h2, h3, h4, h5, h6, p, span, label, a, small {
+  font-family: 'Montserrat', sans-serif !important; 
+  
 }
+
+
+/* Estilos predeterminados para tamaño de escritorio (1920px o superior) */
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p, span, label, a {
+font-size: 18px;
+}
+
+
+
+/* Consultas de medios para tamaños de pantalla entre 768px y 1024px (tablet) */
+@media (max-width: 1024px) and (min-width: 768px) {
+  h1 {
+      font-size: 28px;
+  }
+
+  h2 {
+      font-size: 24px;
+  }
+
+  h3 {
+      font-size: 20px;
+  }
+
+  body {
+      font-size: 16px;
+  }
+}
+
+
+
+/* Consultas de medios para tamaños de pantalla menores a 768px (móvil) */
+@media (max-width: 767px) {
+  h1 {
+      font-size: 22px;
+  }
+
+  h2 {
+      font-size: 18px;
+  }
+
+  h3 {
+      font-size: 16px;
+  }
+
+  body {
+      font-size: 14px;
+  }
+}
+
