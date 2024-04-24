@@ -1,0 +1,178 @@
+
+
+.logo{
+    transform: scale(0.8);
+    position:absolute;
+    z-index:100;
+    }
+    
+    figure.snip0064 {
+      position: relative;
+      overflow: hidden;
+      min-width: 220px;
+      max-width: 580px;
+      max-height: 280px;
+      width: 100%;
+      background-image: url("../../assets/fondo.jpg");
+      background-size: cover; 
+      background-repeat: no-repeat; 
+      color: #244d23;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      transition: transform 0.2s ease-in-out; 
+      /*colores de glow*/
+      border: 1px solid hsla(121, 95%, 75%, 0.35);
+      box-shadow: 3px 3px 1px hsl(121, 56%, 15%);
+      filter: drop-shadow(1px 1px 6px rgb(0, 128, 0, 0.65));
+    }
+    
+    figure.snip0064:hover {
+      border-color: rgba(230, 110, 50, 0.85);
+      box-shadow: 3px 3px 1px rgba(230, 110, 50, 0.3);
+      filter: drop-shadow(1px 1px 6px rgb(230, 110, 50, 0.65));
+    }
+    
+    
+    
+    figure.snip0064 * {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition: all 0.25s ease-in-out;
+      transition: all 0.25s ease-in-out;
+    }
+    figure.snip0064 .image {
+      position: relative;
+      width: 58%;
+      overflow: hidden;
+      left: -14%;
+      z-index: 1;
+      box-shadow: 0px 0 20px rgba(0, 0, 0, 0.5);
+      -webkit-transform: skewX(-15deg);
+      transform: skewX(-15deg);
+    }
+    figure.snip0064 .image img {
+      position: relative;
+      right: -20%;
+      max-width: 100%;
+      -webkit-transform: skewX(15deg);
+      transform: skewX(15deg);
+    }
+    figure.snip0064 figcaption {
+      background-image: url("../../assets/fondo.jpg");
+      background-size: cover; 
+      background-repeat: no-repeat; 
+      height: 100%;
+      margin: 0;
+      position: absolute;
+      width: 100%;
+      z-index: 1;
+      
+    }
+    figure.snip0064 figcaption h2,
+    figure.snip0064 figcaption p {
+      margin: 0;
+      text-align: right;
+      width: 100%;
+      
+    }
+    
+    figure.snip0064 figcaption h2 {
+      bottom: 60px;
+      position: absolute;
+      padding: 10px 20px;
+      background: linear-gradient(to right, rgba(5, 255, 9, 0) 40%, rgb(3, 70, 4) 100%);
+      font-size: 1.3em;
+      font-weight: 300;
+      text-transform: uppercase;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      
+    }
+    
+    figure.snip0064 figcaption h2 span {
+      font-weight: 800;
+    }
+    
+    figure.snip0064 figcaption p {
+      padding: 20px;
+      width: 50%;
+      right: 0;
+      bottom: 100px;
+      position: absolute;
+      font-size: 0.9em;
+      opacity: 0.8; 
+      
+    }
+    
+    figure.snip0064 figcaption .position {
+      position: absolute;
+      bottom: 20px;
+      right: 0;
+      line-height: 40px;
+      padding-right: 20px;
+      font-style: italic;
+      opacity: 0.5;
+      
+    }
+    figure.snip0064 a {
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      position: absolute;
+      z-index: 1;
+    }
+    
+    
+    
+    
+    .snip0064:hover figcaption h2 {
+      filter: brightness(120%);
+      background: linear-gradient(to right, rgba(255, 109, 46, 0) 40%, rgb(255, 109, 46, 0.6) 100%);
+      
+      
+    }
+    
+    figure.snip0064:hover .image img {
+      scale: 1.25;
+      filter: brightness(120%);
+    }
+    
+    .custom-container {
+      margin-top: 3%;
+    }
+    
+    .custom-container {
+      width: 80%;
+    }
+    
+    
+    .container.text-center {
+      margin-top: 120px;
+    }
+    
+    .container h1, h2, h3, h4, h5, h6 {
+      font-weight: bold; 
+      filter: drop-shadow(5px 5px 10px green);
+    }
+    
+    figcaption h2 {
+      font-weight: bold; 
+      filter: drop-shadow(0px 0px 0px rgba(0, 128, 0, 0));
+    }
+    
+    .container p, span, label, a, small, li {
+      margin-top: 30px;
+      filter: drop-shadow(1px 1px 1px rgb(25, 25, 25));
+    }
+    
+    
+    .styled-img {
+      filter: drop-shadow(7px 7px 10px rgba(0, 128, 0, 0.3));
+      transform: rotate(-2deg);
+    }
+    
+    
+    .styled-img2 {
+    filter: drop-shadow(7px 7px 10px rgba(0, 128, 0, 0.3)) brightness(0.9) saturate(1.8);
+    transform: rotate(2deg); 
+    }

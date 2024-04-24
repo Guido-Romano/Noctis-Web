@@ -51,7 +51,10 @@ p, span, label, a {
 font-size: 18px;
 }
 
-
+.container h1, h2, h3, h4, h5, h6 {
+  font-weight: bold; 
+  filter: drop-shadow(5px 5px 10px green);
+}
 
 /* Consultas de medios para tamaños de pantalla entre 768px y 1024px (tablet) */
 @media (max-width: 1024px) and (min-width: 768px) {

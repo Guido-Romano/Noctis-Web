@@ -154,7 +154,11 @@ figure.snip0064:hover .image img {
 .container h1, h2, h3, h4, h5, h6 {
   font-weight: bold; 
   filter: drop-shadow(5px 5px 10px green);
-  
+}
+
+figcaption h2 {
+  font-weight: bold; 
+  filter: drop-shadow(0px 0px 0px rgba(0, 128, 0, 0));
 }
 
 .container p, span, label, a, small, li {
@@ -163,8 +167,16 @@ figure.snip0064:hover .image img {
 }
 
 
+.styled-img {
+  filter: drop-shadow(7px 7px 10px rgba(0, 128, 0, 0.3));
+  transform: rotate(-2deg);
+}
 
 
+.styled-img2 {
+filter: drop-shadow(7px 7px 10px rgba(0, 128, 0, 0.3)) brightness(0.9) saturate(1.8);
+transform: rotate(2deg); 
+}
 
 
 

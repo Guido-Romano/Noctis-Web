@@ -69,3 +69,8 @@ a:hover i {
   background-color: #0e370f 
 }
 
+footer span,
+footer p,
+footer a {
+  font-size: 14px; /* Establece el tamaño de fuente a 2 rem */
+}

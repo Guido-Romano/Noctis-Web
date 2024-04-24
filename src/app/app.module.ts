@@ -17,6 +17,12 @@ import { ImgEquipoComponent } from './teams/img-equipo/img-equipo.component';
 import { CamisetasComponent } from './teams/camisetas/camisetas.component';
 import { LogoComponent } from './logo/logo.component';
 import { BannerComponent } from './banner/banner.component';
+import { Texto2EquipoComponent } from './teams/team1/texto2-equipo/texto2-equipo.component';
+import { CartaComponent } from './creators/carta/carta.component';
+import { CartaStaffComponent } from './staff/carta-staff/carta-staff.component';
+import { PComponent } from './p/p.component';
+import { PlayercardComponent } from './playercard/playercard.component';
+
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -35,7 +41,13 @@ export function HttpLoaderFactory(http: HttpClient) {
     ImgEquipoComponent,
     CamisetasComponent,
     LogoComponent,
-    BannerComponent
+    BannerComponent,
+    Texto2EquipoComponent,
+    CartaComponent,
+    CartaStaffComponent,
+    PComponent,
+    PlayercardComponent,
+
   ],
   imports: [
     BrowserModule,

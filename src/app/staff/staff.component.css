@@ -27,7 +27,11 @@ figure.snip0064:hover {
   transform: translateY(-3px); 
 }
 */
-
+.container h1, h2, h3, h4, h5, h6 {
+  font-weight: bold; 
+  filter: drop-shadow(5px 5px 10px green);
+  
+}
 
 .snip1336 {
   position: relative;
@@ -39,11 +43,16 @@ figure.snip0064:hover {
   color: #ffffff;
   text-align: left;
   line-height: 1.4em;
-  background-color: #3a6338;
   transition: transform 0.2s ease-in-out; 
-  border-bottom: 1px solid rgba(254, 44, 20, 0.6); 
-  border-right: 1px solid rgba(254, 44, 20, 0.6); 
+  border-bottom: 1px solid rgba(230, 110, 50, 0.85);
+  border-right: 1px solid rgba(230, 110, 50, 0.85);
+ 
 }
+
+
+
+
+
 .snip1336 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -54,15 +63,27 @@ figure.snip0064:hover {
   max-width: 100%;
   vertical-align: top;
   opacity: 0.85;
+  
+  
 }
+/*
 .snip1336 figcaption {
   width: 100%;
   background-color: #230202;
   padding: 25px;
   position: relative;
   background-image: url("../../assets/fondo.jpg");
-  background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
-  background-position: center; /* Centra la imagen */
+}
+*/
+
+.snip1336 figcaption {
+  width: 100%; /* Ancho completo de la tarjeta */
+  height: 320px; /* Altura fija de 500px */
+  padding: 25px;
+  position: relative;
+  background-image: url("../../assets/fondo.jpg"); /* Ruta de la imagen de fondo */
+  
+  
 }
 
 .snip1336 figcaption:before {
@@ -75,6 +96,7 @@ figure.snip0064:hover {
   border-style: solid;
   border-width: 55px 0 0 400px;
   border-color: transparent transparent transparent #032f02c1;
+  
 }
 .snip1336 figcaption a {
   padding: 5px;
@@ -89,7 +111,8 @@ figure.snip0064:hover {
   text-align: center;
   text-decoration: none;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 1px;  
+
 }
 .snip1336 figcaption a:hover {
   opacity: 1;
@@ -103,11 +126,14 @@ figure.snip0064:hover {
   max-width: 90px;
   opacity: 1;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  
 }
+
 .snip1336 .follow {
   margin-right: 4%;
   border-color: #2980b9;
   color: #2980b9;
+
 }
 .snip1336 h2 {
   margin: 0 0 5px;
@@ -134,3 +160,5 @@ figure.snip0064:hover {
 .snip1336:hover .profile {
   scale: 1.2;
 }
+
+

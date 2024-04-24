@@ -127,7 +127,11 @@ figure.snip0057.yellow .position {
 
 figure.snip0057:hover {
   transform: translate(-1px, -1px); /* Separar los valores con coma */
-  filter: brightness(120%);
+  filter: brightness(115%);
 }
 
+.container h1, h2, h3, h4, h5, h6 {
+  font-weight: bold; 
+  filter: drop-shadow(5px 5px 10px green);
+}
 
