@@ -45,3 +45,19 @@ CODIGOS DE COLOR DE OSCURO A CLARO
 #3a6338
 #50794c
 #668f60*/
+
+.resp{
+  display: flex; /* Establece el contenedor como un elemento flexbox */
+  align-items: center; /* Centra los elementos hijos verticalmente */
+  padding-left: 0%; /* Agrega un padding de 5% a la izquierda */
+  padding-right: 0%; /* Agrega un padding de 5% a la derecha */
+  width: 100%; /* Establece el ancho del contenedor al 75% del padre */
+  margin-left: auto; /* Centra el contenedor horizontalmente */
+  margin-right: auto; /* Centra el contenedor horizontalmente */
+  justify-content: center; /* Centra los elementos hijos horizontalmente */
+}
+
+
+.staff {
+  background-color: #0b0b0b ;
+}

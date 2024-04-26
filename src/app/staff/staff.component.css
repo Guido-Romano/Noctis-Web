@@ -12,6 +12,8 @@
   transition: transform 0.2s ease-in-out; 
   border-bottom: 1px solid rgba(230, 110, 50, 0.85);
   border-right: 1px solid rgba(230, 110, 50, 0.85);
+
+  
 }
 
 
@@ -67,7 +69,10 @@
   text-align: center;
   text-decoration: none;
   font-weight: 600;
-  letter-spacing: 1px;  
+  letter-spacing: 1px; 
+  
+
+  
 
 }
 .snip1336 figcaption a:hover {
