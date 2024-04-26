@@ -1,5 +1,6 @@
-<nav class="navbar navbar-expand-sm">
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-md">
+  <div class="container-fluid d-flex justify-content-between align-items-center">
+    <!-- Sección izquierda: botones de navegación -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -8,8 +9,6 @@
         <li class="nav-item">
           <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
         </li>
-        
-        
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" routerLink="/teams" routerLinkActive="active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Teams
@@ -31,27 +30,53 @@
         </li>
       </ul>
     </div>
-  </div>
 
-<div class="d-flex justify-content-between align-items-center me-5">
-  <img src="assets/es.svg" alt="Icono de ES" class="img-fluid me-2" style="width: 24px; height: 24px;">
-  <div class="form-check form-switch">
-      <input class="form-check-input" type="checkbox" role="switch" id="customSwitch">
-  </div>
-  <img src="assets/us.svg" alt="Icono de US" class="img-fluid" style="width: 24px; height: 24px;">
-</div>
+    <!-- Sección derecha: redes sociales, banderas e interruptor -->
+    <div class="d-flex align-items-center">
+      <!-- Redes sociales -->
+      <div class="social-icons d-flex me-4">
+        <a href="https://www.instagram.com/noctisbellatormx" target="_blank"><i class="fab fa-instagram" style="font-size:16px; margin-right:12px;"></i></a>
+        <a href="https://discord.gg/rwhvYGCh8k" target="_blank"><i class="fab fa-discord" style="font-size:16px; margin-right:12px;"></i></a>
+        <a href="https://twitter.com/Noctis_Bellator" target="_blank"><i class="fab fa-twitter" style="font-size:16px; margin-right:12px;"></i></a>
+        <a href="https://www.tiktok.com/@noctisbellatormx" target="_blank"><i class="fab fa-tiktok" style="font-size:16px; margin-right:12px;"></i></a>
+        <a href="https://www.facebook.com/NoctisBellatorMx" target="_blank"><i class="fab fa-facebook" style="font-size:16px; margin-right:12px;"></i></a>
+        <a href="https://www.twitch.tv/noctisbellatormx" target="_blank"><i class="fab fa-twitch" style="font-size:16px; margin-right:26px;"></i></a>
+      </div>
 
-    <div class="social-icons me-4 d-flex">
-      <a href="https://www.instagram.com/noctisbellatormx"  target="_blank"><i class="fab fa-instagram" style="font-size:16px; margin-right: 12px;"></i></a>
-      <a href="https://discord.gg/rwhvYGCh8k" target="_blank"><i class="fab fa-discord" style="font-size:  16px; margin-right: 12px;"></i></a>
-      <a href="https://twitter.com/Noctis_Bellator" target="_blank"><i class="fab fa-twitter" style="font-size:  16px; margin-right: 12px;"></i></a>
-      <a href="https://www.tiktok.com/@noctisbellatormx" target="_blank"><i class="fab fa-tiktok" style="font-size:  16px; margin-right: 12px;"></i></a>
-      <a href="https://www.facebook.com/NoctisBellatorMx" target="_blank"><i class="fab fa-facebook" style="font-size:  16px; margin-right: 12px;"></i></a>
-      <a href="https://www.twitch.tv/noctisbellatormx" target="_blank"><i class="fab fa-twitch" style="font-size:  16px; margin-right: 26px;"></i></a>
+      <!-- Banderas e interruptor -->
+      <div class="d-flex align-items-center">
+        <img src="assets/es.svg" alt="Icono de ES" class="img-fluid me-2" style="width:24px;height:24px;">
+        <div class="form-check form-switch me-0">
+          <input class="form-check-input" type="checkbox" role="switch" id="customSwitch">
+        </div>
+        <img src="assets/us.svg" alt="Icono de US" class="img-fluid me-4" style="width:24px;height:24px;">
+      </div>
     </div>
+  </div>
 </nav>
 
+
+
+
+
+
+
+
+
+
 <router-outlet></router-outlet>
+
+ <!--
+<div class="wave-container">
+  SVG para la onda 
+  <svg class="wave" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path fill="#0e370f" d="M0,120C80,100,160,80,240,80C320,80,400,100,480,120C560,140,640,160,720,160C800,160,880,140,960,120C1040,100,1120,80,1200,60C1280,40,1360,20,1440,0V320H0Z"></path>
+  </svg>
+</div>
+
+
+
+-->
 
 
 

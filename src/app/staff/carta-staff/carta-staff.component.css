@@ -3,8 +3,8 @@
   position: relative;
   overflow: hidden;
   margin: 10px;
-  min-width: 230px;
-  max-width: 315px;
+  min-width: 330px;
+  max-width: 330px;
   width: 100%;
   color: #ffffff;
   text-align: left;
@@ -13,6 +13,8 @@
   transition: transform 0.2s ease-in-out; 
   border-bottom: 1px solid rgba(254, 44, 20, 0.6); 
   border-right: 1px solid rgba(254, 44, 20, 0.6); 
+  min-height: 600px;
+  max-height:  600px;
 }
 .snip1336 * {
   -webkit-box-sizing: border-box;
@@ -24,6 +26,7 @@
   max-width: 100%;
   vertical-align: top;
   opacity: 0.85;
+  
 }
 .snip1336 figcaption {
   width: 100%;
@@ -33,6 +36,8 @@
   background-image: url("../../../assets/fondo.jpg");
   background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
   background-position: center; /* Centra la imagen */
+  min-height: 600px;
+  max-height:  600px;
 }
 
 .snip1336 figcaption:before {
@@ -105,3 +110,12 @@
 }
 
 
+.links-container {
+  position: absolute; /* Posicionamiento absoluto */
+  bottom: 10; /* Al final del contenedor */
+  left: 0; /* Alineación con el margen izquierdo */
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  top: 200px; /* Ubicar a 500px desde la parte superior */
+  display: flex; /* Para alinear horizontalmente los enlaces */
+  justify-content: center; /* Para centrar los enlaces horizontalmente */
+}

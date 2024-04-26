@@ -9,8 +9,8 @@
     figure.snip0064 {
       position: relative;
       overflow: hidden;
-      min-width: 220px;
-      max-width: 580px;
+      min-width: 400px;
+      max-width: 400px;
       max-height: 280px;
       width: 100%;
       background-image: url("../../assets/fondo.jpg");
@@ -24,6 +24,7 @@
       border: 1px solid hsla(121, 95%, 75%, 0.35);
       box-shadow: 3px 3px 1px hsl(121, 56%, 15%);
       filter: drop-shadow(1px 1px 6px rgb(0, 128, 0, 0.65));
+  
     }
     
     figure.snip0064:hover {
@@ -135,14 +136,6 @@
     figure.snip0064:hover .image img {
       scale: 1.25;
       filter: brightness(120%);
-    }
-    
-    .custom-container {
-      margin-top: 3%;
-    }
-    
-    .custom-container {
-      width: 80%;
     }
     
     

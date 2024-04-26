@@ -1,37 +1,3 @@
-/*
-background-image: url("../../../assets/fondo.jpg");
-
-CODIGOS DE COLOR DE verde OSCURO A verde CLARO
-
-#0e370f
-#244d23
-#3a6338
-#50794c
-#668f60
-
-
-NARANJAS
-  border-color: rgba(230, 110, 50, 0.85);
-  background: rgba(255, 109, 46, 0.5); 
-
-VERDES
-background: #05ff0933;
-border: 7px solid hsla(121, 95%, 75%, 0.28);
-
-
-
-transition: transform 0.2s ease-in-out; 
-
-figure.snip0064:hover {
-  border-color: rgba(230, 110, 50, 0.85);
-  transform: translateY(-3px); 
-}
-*/
-.container h1, h2, h3, h4, h5, h6 {
-  font-weight: bold; 
-  filter: drop-shadow(5px 5px 10px green);
-  
-}
 
 .snip1336 {
   position: relative;
@@ -46,7 +12,6 @@ figure.snip0064:hover {
   transition: transform 0.2s ease-in-out; 
   border-bottom: 1px solid rgba(230, 110, 50, 0.85);
   border-right: 1px solid rgba(230, 110, 50, 0.85);
- 
 }
 
 
@@ -63,18 +28,9 @@ figure.snip0064:hover {
   max-width: 100%;
   vertical-align: top;
   opacity: 0.85;
-  
-  
+
 }
-/*
-.snip1336 figcaption {
-  width: 100%;
-  background-color: #230202;
-  padding: 25px;
-  position: relative;
-  background-image: url("../../assets/fondo.jpg");
-}
-*/
+
 
 .snip1336 figcaption {
   width: 100%; /* Ancho completo de la tarjeta */
@@ -82,8 +38,7 @@ figure.snip0064:hover {
   padding: 25px;
   position: relative;
   background-image: url("../../assets/fondo.jpg"); /* Ruta de la imagen de fondo */
-  
-  
+ 
 }
 
 .snip1336 figcaption:before {
@@ -96,6 +51,7 @@ figure.snip0064:hover {
   border-style: solid;
   border-width: 55px 0 0 400px;
   border-color: transparent transparent transparent #032f02c1;
+  
   
 }
 .snip1336 figcaption a {
@@ -127,14 +83,9 @@ figure.snip0064:hover {
   opacity: 1;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   
+  
 }
 
-.snip1336 .follow {
-  margin-right: 4%;
-  border-color: #2980b9;
-  color: #2980b9;
-
-}
 .snip1336 h2 {
   margin: 0 0 5px;
   font-weight: 300;
@@ -143,6 +94,7 @@ figure.snip0064:hover {
   display: block;
   font-size: 0.5em;
   color: rgba(230, 110, 50, 0.85);
+  
 }
 .snip1336 p {
   margin: 0 0 10px;
@@ -154,7 +106,7 @@ figure.snip0064:hover {
 
 .snip1336:hover {
   transform: translate(-1px, -1px); /* Traslada -5px tanto en el eje X como en el eje Y */
-  filter: brightness(120%);
+  filter: brightness(115%);
 }
 
 .snip1336:hover .profile {

@@ -4,6 +4,7 @@
 transform: scale(0.8);
 position:absolute;
 z-index:100;
+
 }
 
 figure.snip0064 {
@@ -138,13 +139,6 @@ figure.snip0064:hover .image img {
   filter: brightness(120%);
 }
 
-.custom-container {
-  margin-top: 3%;
-}
-
-.custom-container {
-  width: 80%;
-}
 
 
 .container.text-center {
@@ -178,5 +172,6 @@ filter: drop-shadow(7px 7px 10px rgba(0, 128, 0, 0.3)) brightness(0.9) saturate(
 transform: rotate(2deg); 
 }
 
-
-
+app-p {
+margin:1px;
+}

@@ -3,9 +3,11 @@
 figure.snip0057 {
   position: relative;
   overflow: hidden;
-  margin: 10px;
-  min-width: 380px;
-  max-width: 480px;
+
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 400px;
+  max-height: 400px;
   width: 100%;
   transition: transform 0.2s ease-in-out; 
   background-image: url("../../../assets/fondo.jpg");
@@ -98,8 +100,4 @@ figure.snip0057:hover {
   filter: brightness(115%);
 }
 
-.container h1, h2, h3, h4, h5, h6 {
-  font-weight: bold; 
-  filter: drop-shadow(5px 5px 10px green);
-}
 

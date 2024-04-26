@@ -74,3 +74,27 @@ footer p,
 footer a {
   font-size: 14px; /* Establece el tamaño de fuente a 2 rem */
 }
+
+
+ /* 
+ Estilo para el rectángulo naranja 
+     /* Estilo para el rectángulo naranja 
+        .wave-container {
+            width: 100%; 
+            height: 220px; 
+            background-color: #67f50800; 
+            position: relative; 
+        }
+
+        /* Estilo para el SVG de onda
+        .wave {
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            height: auto; 
+        }
+
+*/
+
+    

@@ -1,12 +1,14 @@
 
-    <figure class="snip1336">
-        <img [src]="fondoimagen" alt="sample69" />
+    <figure class="snip1336 mx-auto mb-5">
+        <img [src]="fondoimagen"/>
         <figcaption>
-                <img [src]="ciruloimagen" alt="profile-sample5" class="profile" />
+                <img [src]="ciruloimagen"class="profile" />
                 <h2>{{ nombre }}<span>{{ roll }}</span></h2>
                 <p>{{ descripcion }}</p>
-                <a [href]="instagram" target="_blank" class="me-3 text-reset" class="follow">instagram</a>
-                <a [href]="twitter" target="_blank" class="me-3 text-reset" class="info">twitter</a>
+                <div class="links-container justify-content-center">
+                <a [href]="instagram" target="_blank">instagram</a>
+                <a [href]="twitter" target="_blank">twitter</a>
+            </div>
         </figcaption>
     </figure>
 
