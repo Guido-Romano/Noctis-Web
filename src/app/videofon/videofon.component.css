@@ -11,6 +11,7 @@ video {
     top: 0;
     left: 0;
     top: 50px;
+    filter: brightness(90%);
 }
 
 

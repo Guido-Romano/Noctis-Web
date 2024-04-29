@@ -108,7 +108,54 @@ figure.snip0057:hover {
 }
 
 
+@media (max-width: 768px) {
+  .text-container {
+    position: absolute; /* Posiciona el contenedor de forma absoluta */
+    top: 4200px; /* Sitúa el contenedor en el centro vertical del contenedor padre */
+    left: 50%; /* Sitúa el contenedor en el centro horizontal del contenedor padre */
+    transform: translate(-50%, -50%); /* Traduce el contenedor para centrarlo exactamente */
+  }
+}
+
+@media (max-width: 576px) {
+  .text-container {
+    position: absolute; /* Posiciona el contenedor de forma absoluta */
+    top: 4300px; /* Sitúa el contenedor en el centro vertical del contenedor padre */
+    left: 50%; /* Sitúa el contenedor en el centro horizontal del contenedor padre */
+    transform: translate(-50%, -50%); /* Traduce el contenedor para centrarlo exactamente */
+  }
+}
 
 
 
+
+
+@media (min-width: 768px) {
+  .text-container {
+    position: absolute; /* Posiciona el contenedor de forma absoluta */
+    top: 3850px; /* Sitúa el contenedor en el centro vertical del contenedor padre */
+    left: 50%; /* Sitúa el contenedor en el centro horizontal del contenedor padre */
+    transform: translate(-50%, -50%); /* Traduce el contenedor para centrarlo exactamente */
+  }
+}
+
+
+@media (min-width: 992px) {
+  .text-container {
+    position: absolute; /* Posiciona el contenedor de forma absoluta */
+    top: 2300px; /* Sitúa el contenedor en el centro vertical del contenedor padre */
+    left: 50%; /* Sitúa el contenedor en el centro horizontal del contenedor padre */
+    transform: translate(-50%, -50%); /* Traduce el contenedor para centrarlo exactamente */
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .text-container {
+    position: absolute; /* Posiciona el contenedor de forma absoluta */
+    top: 1750px; /* Sitúa el contenedor en el centro vertical del contenedor padre */
+    left: 50%; /* Sitúa el contenedor en el centro horizontal del contenedor padre */
+    transform: translate(-50%, -50%); /* Traduce el contenedor para centrarlo exactamente */
+  }
+}
 

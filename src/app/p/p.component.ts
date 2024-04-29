@@ -1,4 +1,5 @@
-import { Component, Input } from '@angular/core';
+
+import { Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-p',
@@ -6,7 +7,14 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./p.component.css']
 })
 export class PComponent {
-  @Input() h2!: string; // Contenido de texto para el encabezado <h2>
-  @Input() p!: string; // Contenido de texto para el párrafo <p>
+    @Input() h2!: string; // Contenido de texto para el encabezado <h2>
+    @Input() p!: string; // Contenido de texto para el párrafo <p>
+
 }
+
+
+
+
+
+
 

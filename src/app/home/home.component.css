@@ -39,14 +39,18 @@
 }
 
 .parrafo1 {
-  top: -30px; /* Ajusta este valor según sea necesario */
+  top: -60px; /* Ajusta este valor según sea necesario */
   position: relative;
 }
 
 .primerboton {
-  top: -30px; /* Ajusta este valor según sea necesario */
+  top: -80px; /* Ajusta este valor según sea necesario */
 }
 
+
+.logito{
+  scale: 85%;
+}
 
 
 
@@ -66,7 +70,12 @@
     top: 10px; /* Ajusta este valor según sea necesario */
   }
 
+  
+.logito{
+  scale: 100%;
 }
 
+
+}
 
 
