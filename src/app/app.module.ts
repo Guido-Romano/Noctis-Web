@@ -22,6 +22,7 @@ import { CartaComponent } from './creators/carta/carta.component';
 import { CartaStaffComponent } from './staff/carta-staff/carta-staff.component';
 import { PComponent } from './p/p.component';
 import { PlayercardComponent } from './playercard/playercard.component';
+import { VideofonComponent } from './videofon/videofon.component';
 
 
 
@@ -47,6 +48,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     CartaStaffComponent,
     PComponent,
     PlayercardComponent,
+    VideofonComponent,
+
 
   ],
   imports: [

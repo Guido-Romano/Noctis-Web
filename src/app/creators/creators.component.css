@@ -96,10 +96,19 @@ figure.snip0057.yellow .position {
 figure.snip0057:hover {
   transform: translate(-1px, -1px); /* Separar los valores con coma */
   filter: brightness(115%);
+  transform: translate(-1px, -1px); /* Traslada -5px tanto en el eje X como en el eje Y */
+  border-color: rgba(230, 110, 50, 0.85);
+  box-shadow: 3px 3px 1px rgba(230, 110, 50, 0.3);
+  filter: brightness(120%) drop-shadow(1px 1px 6px rgb(230, 110, 50, 0.65));
 }
 
 .container h1, h2, h3, h4, h5, h6 {
   font-weight: bold; 
   filter: drop-shadow(5px 5px 10px green);
 }
+
+
+
+
+
 

@@ -1,66 +1,21 @@
 
-/* 
-figure.snip0064:hover {
-      border-color: rgba(230, 110, 50, 0.85);
-      box-shadow: 3px 3px 1px rgba(230, 110, 50, 0.3);
-      filter: drop-shadow(1px 1px 6px rgb(230, 110, 50, 0.65));
-    }
-    
-
-
-
-
-
-    .snip0064:hover figcaption h2 {
-      filter: brightness(120%);
-      background: linear-gradient(to right, rgba(255, 109, 46, 0) 40%, rgb(255, 109, 46, 0.6) 100%);
-      
-      
-    }
-    
-    figure.snip0064:hover .image img {
-      scale: 1.25;
-      filter: brightness(120%);
-    }
-    
-
-
-  */
 
 .snip1336 {
   position: relative;
   overflow: hidden;
   margin: 10px;
-  min-width: 330px;
-  max-width: 330px;
+  min-width: 290px;
+  max-width: 290px;
   width: 100%;
   color: #ffffff;
   text-align: left;
   line-height: 1.4em;
   background-color: #3a6338;
   transition: transform 0.2s ease-in-out; 
-  border-bottom: 1px solid rgba(254, 44, 20, 0.6); 
-  border-right: 1px solid rgba(254, 44, 20, 0.6); 
-  min-height: 600px;
-  max-height:  600px;
-
-
-
-  
-
- /*probando colores nuevos*/
- color: #244d23;
- box-sizing: border-box;
- transition: transform 0.2s ease-in-out; 
- /*border: 1px solid hsla(121, 95%, 75%, 0.35);*/
- box-shadow: 3px 3px 1px hsl(121, 56%, 15%);
+  min-height: 610px;
+  max-height:  610px;
+  transition: transform 0.2s ease-in-out; 
  filter: drop-shadow(1px 1px 6px rgb(0, 128, 0, 0.65));
-
- border-bottom: 1px solid hsla(121, 95%, 75%, 0.35);
- border-right: 1px solid hsla(121, 95%, 75%, 0.35);
-
-
-
 }
 .snip1336 * {
   -webkit-box-sizing: border-box;
@@ -76,7 +31,7 @@ figure.snip0064:hover {
 }
 .snip1336 figcaption {
   width: 100%;
-  background-color: #230202;
+ 
   padding: 25px;
   position: relative;
   background-image: url("../../../assets/fondo.jpg");
@@ -100,6 +55,7 @@ figure.snip0064:hover {
 .snip1336 figcaption a {
   padding: 5px;
   border: 1px solid rgba(230, 110, 50, 0.85);
+  border: 1px solid  hsla(121, 95%, 75%, 0.35);
   color: #ffffff;
   font-size: 0.7em;
   text-transform: uppercase;
@@ -114,6 +70,7 @@ figure.snip0064:hover {
 }
 .snip1336 figcaption a:hover {
   opacity: 1;
+  border: 1px solid rgba(230, 110, 50, 0.85);
 }
 .snip1336 .profile {
   border-radius: 50%;
@@ -137,6 +94,7 @@ figure.snip0064:hover {
   display: block;
   font-size: 0.5em;
   color: rgba(230, 110, 50, 0.85);
+  
 }
 .snip1336 p {
   margin: 0 0 10px;
@@ -145,11 +103,6 @@ figure.snip0064:hover {
   opacity: 0.8;
 }
 
-
-.snip1336:hover {
-  transform: translate(-1px, -1px); /* Traslada -5px tanto en el eje X como en el eje Y */
-  filter: brightness(120%);
-}
 
 .snip1336:hover .profile {
   scale: 1.2;
@@ -161,12 +114,18 @@ figure.snip0064:hover {
   bottom: 10; /* Al final del contenedor */
   left: 0; /* Alineación con el margen izquierdo */
   width: 100%; /* Ocupa todo el ancho del contenedor */
-  top: 200px; /* Ubicar a 500px desde la parte superior */
+  top: 260px; /* Ubicar a 500px desde la parte superior */
   display: flex; /* Para alinear horizontalmente los enlaces */
   justify-content: center; /* Para centrar los enlaces horizontalmente */
 }
 
-
-
-
+  
+.snip1336:hover {
+  transform: translate(-1px, -1px); /* Traslada -5px tanto en el eje X como en el eje Y */
+  border-bottom: 1px solid rgba(255, 100, 46, 0.3); 
+  border-right: 1px solid rgba(255,  100, 46, 0.3); 
+  border-color: rgba(230, 110, 50, 0.85);
+  box-shadow: 2px 2px 1px rgba(230, 110, 50, 0.3);
+  filter: brightness(120%) drop-shadow(1px 1px 6px rgb(230, 110, 50, 0.65));
+}
 

@@ -1,19 +1,46 @@
+
 img {
     height: 40vh; 
     object-fit: cover; 
 }
 
+
 .carousel-item:nth-child(1) img {
-    object-position: 0px -250px; 
     filter: brightness(95%);
 }
 
 .carousel-item:nth-child(2) img {
-    object-position: 0 -420px; 
     filter: brightness(70%) blur(2px); 
 }
 
 .carousel-item:nth-child(3) img {
-    object-position: 0 -620px; 
+
     filter: brightness(70%) blur(2px);
+}
+
+
+
+@media (min-width: 1440px) {
+    .carousel-item:nth-child(1) img {
+        object-position: 0px -250px; 
+     
+    }
+
+    .carousel-item:nth-child(2) img {
+        object-position: 0 -420px; 
+     
+    }
+
+    .carousel-item:nth-child(3) img {
+        object-position: 0 -620px; 
+      
+    }
+}
+
+
+@media (max-width: 575px) {
+    img {
+        height: 30vh; /* Establece la altura de la imagen a 20% de la altura del viewport */
+        object-fit: cover; /* Ajusta la imagen para que se recorte según sea necesario */
+    }
 }

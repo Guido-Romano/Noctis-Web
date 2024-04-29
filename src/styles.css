@@ -3,29 +3,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import "~@fortawesome/fontawesome-free/css/all.css";
 
+
 body {
-  /* Configuración de la imagen de fondo */
+
+  /* 
+
   background: 
-      radial-gradient(circle, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%),
-      url('/assets/fondo.jpg') no-repeat center center fixed;
-  background-size: cover; /* Asegura que la imagen de fondo se ajuste al tamaño del contenedor */
+  radial-gradient(circle, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%),
+  url('/assets/fondo.jpg') 
+  background-size: cover;  
+
+  */
+
+  background: 
+   /* radial-gradient(circle at bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%),*/
+  linear-gradient(to bottom, rgb(0, 0, 0, 0) 0%, rgb(0, 0, 0, 0.35) 50%, rgb(0, 0, 0, 0.75) 100%),
+  url('/assets/fondo.jpg') no-repeat center center fixed;
+background-size: cover; /*
+
+
+
   
-  /* Otras configuraciones de estilo */
   width: 100vw;
   height: 100vh;
+  margin: 0;  /* Asegura que el cuerpo no tenga margen */
   user-select: none;
   overflow-x: hidden;
   z-index: -100;
   top: 0;
   left: 0;
   position: relative;
-  color: #fdf8f0;
-  
+  color: #ebebeb;
 }
 
 
 * {
-  color: #fdf8f0;
+  color: #ebebeb;
   }
   
 h1, h2, h3, h4, h5, h6, p, span, label, a, small {
@@ -51,9 +64,9 @@ p, span, label, a {
 font-size: 18px;
 }
 
-.container h1, h2, h3{
+.container h1, h2, h3, h4 {
   font-weight: bold; 
-  filter: drop-shadow(7px 7px 5px green);
+  filter: drop-shadow(3px 3px 5px green);
 }
 
 /* Consultas de medios para tamaños de pantalla entre 768px y 1024px (tablet) */
@@ -95,4 +108,5 @@ font-size: 18px;
       font-size: 14px;
   }
 }
+
 

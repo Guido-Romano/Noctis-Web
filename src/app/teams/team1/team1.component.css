@@ -1,11 +1,18 @@
 
-
-.logo{
+/*
+.logo {
 transform: scale(0.8);
 position:absolute;
 z-index:100;
-
 }
+
+
+.app-logo {
+  transform: scale(0.8);
+  position:absolute;
+  z-index:100;
+}
+*/
 
 figure.snip0064 {
   position: relative;
@@ -175,3 +182,31 @@ transform: rotate(2deg);
 app-p {
 margin:1px;
 }
+
+
+/* Establece el estilo en el contenedor padre de app-logo 
+.parent-of-app-logo {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100%; 
+  width: 100%; 
+  position: absolute;
+  top: -310;
+  left: 0;
+}
+
+*/
+
+
+/* Estilo para centrar horizontalmente app-logo */
+app-logo {
+  position: absolute; /* Posicionamiento fijo */
+  top: 35px; /* Margen superior de 50 píxeles */
+  left: 0; /* Ancla el elemento al lado izquierdo del viewport */
+  right: 0; /* Ancla el elemento al lado derecho del viewport */
+  margin: auto; /* Centra el elemento horizontalmente */
+  transform: scale(0.75);
+}
+
+
