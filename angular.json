@@ -50,14 +50,14 @@
               "outputHashing": "all"
             },
             "development": {
-              "aot": true,
-              "buildOptimizer": true,
-              "optimization": true,
+              "aot": false,
+              "buildOptimizer": false,
+              "optimization": false,
               "vendorChunk": true,
               "extractLicenses": false,
-              "sourceMap": false,
-              "namedChunks": false,
-              "outputHashing": "all"
+              "sourceMap": true,
+              "namedChunks":true,
+              "outputHashing": "none"
             }
           },
           "defaultConfiguration": "production"
@@ -93,9 +93,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           }
         }
       }
