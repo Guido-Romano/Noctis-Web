@@ -15,7 +15,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Github
   ng build
   git add .
-  git commit -m "Actualización"
+  git commit -m "charset2"
   git push
   git push origin main
   git push origin nombre-de-la-ramaguido
