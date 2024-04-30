@@ -1,23 +1,7 @@
 
-/*
-.logo {
-transform: scale(0.8);
-position:absolute;
-z-index:100;
-}
-
-
-.app-logo {
-  transform: scale(0.8);
-  position:absolute;
-  z-index:100;
-}
-*/
-
 figure.snip0064 {
   position: relative;
   overflow: hidden;
- 
   min-width: 220px;
   max-width: 580px;
   max-height: 280px;
@@ -40,7 +24,6 @@ figure.snip0064:hover {
   box-shadow: 3px 3px 1px rgba(230, 110, 50, 0.3);
   filter: drop-shadow(1px 1px 6px rgb(230, 110, 50, 0.65));
 }
-
 
 
 figure.snip0064 * {
@@ -131,9 +114,6 @@ figure.snip0064 a {
   z-index: 1;
 }
 
-
-
-
 .snip0064:hover figcaption h2 {
   filter: brightness(120%);
   background: linear-gradient(to right, rgba(255, 109, 46, 0) 40%, rgb(255, 109, 46, 0.6) 100%);
@@ -145,8 +125,6 @@ figure.snip0064:hover .image img {
   scale: 1.25;
   filter: brightness(120%);
 }
-
-
 
 .container.text-center {
   margin-top: 120px;
@@ -184,28 +162,12 @@ margin:1px;
 }
 
 
-/* Establece el estilo en el contenedor padre de app-logo 
-.parent-of-app-logo {
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  height: 100%; 
-  width: 100%; 
-  position: absolute;
-  top: -310;
-  left: 0;
-}
-
-*/
-
-
-/* Estilo para centrar horizontalmente app-logo */
 app-logo {
-  position: absolute; /* Posicionamiento fijo */
-  top: 35px; /* Margen superior de 50 píxeles */
-  left: 0; /* Ancla el elemento al lado izquierdo del viewport */
-  right: 0; /* Ancla el elemento al lado derecho del viewport */
-  margin: auto; /* Centra el elemento horizontalmente */
+  position: absolute; 
+  top: 35px; 
+  left: 0; 
+  right: 0; 
+  margin: auto; 
   transform: scale(0.75);
 }
 
