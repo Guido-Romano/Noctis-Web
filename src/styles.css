@@ -1,113 +1,91 @@
+/* Especifica la codificación de caracteres */
 @charset "UTF-8";
 
+/* Importa fuentes de Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Aldo+Apache&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import "~@fortawesome/fontawesome-free/css/all.css";
 
+/* Importa estilos de Font Awesome */
+@import url('~@fortawesome/fontawesome-free/css/all.css');
+
+/* Estilos para el cuerpo */
 body {
-
-  /* 
-
-  background: 
-  radial-gradient(circle, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%),
-  url('/assets/fondo.jpg') 
-  background-size: cover;  
-
-  */
-
-  background: 
-   /* radial-gradient(circle at bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%),*/
-  linear-gradient(to bottom, rgb(0, 0, 0, 0) 0%, rgb(0, 0, 0, 0.35) 50%, rgb(0, 0, 0, 0.75) 100%),
-  url('/assets/fondo.jpg') no-repeat center center fixed;
-background-size: cover; /*
-
-
-
-  
-  width: 100vw;
-  height: 100vh;
-  margin: 0;  /* Asegura que el cuerpo no tenga margen */
-  user-select: none;
-  overflow-x: hidden;
-  z-index: -100;
-  top: 0;
-  left: 0;
-  position: relative;
-  color: #ebebeb;
-  
+    background: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 50%, rgba(0, 0, 0, 0.75) 100%),
+        url('/assets/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    user-select: none;
+    overflow-x: hidden;
+    position: relative;
+    z-index: -100;
+    color: #ebebeb;
+    top: 0;
+    left: 0;
 }
 
-
+/* Estilos generales para todos los elementos */
 * {
-  color: #ebebeb;
-  }
-  
-h1, h2, h3, h4, h5, h6, p, span, label, a, small {
-  font-family: 'Montserrat', sans-serif !important; 
-  
+    color: #ebebeb;
 }
 
+/* Estilos de tipografía */
+h1, h2, h3, h4, h5, h6, p, span, label, a, small {
+    font-family: 'Montserrat', sans-serif !important;
+}
 
-/* Estilos predeterminados para tamaño de escritorio (1920px o superior) */
+/* Tamaños de fuente */
 h1 {
-  font-size: 36px;
+    font-size: 36px;
 }
 
 h2 {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 h3 {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 p, span, label, a {
-font-size: 18px;
+    font-size: 18px;
 }
 
+/* Estilos específicos para elementos en contenedores */
 .container h1, h2, h3, h4 {
-  font-weight: bold; 
-  filter: drop-shadow(3px 3px 5px green);
+    font-weight: bold;
+    filter: drop-shadow(3px 3px 5px green);
 }
 
-/* Consultas de medios para tamaños de pantalla entre 768px y 1024px (tablet) */
+/* Consultas de medios para tamaños de pantalla específicos */
 @media (max-width: 1024px) and (min-width: 768px) {
-  h1 {
-      font-size: 28px;
-  }
-
-  h2 {
-      font-size: 24px;
-  }
-
-  h3 {
-      font-size: 20px;
-  }
-
-  body {
-      font-size: 16px;
-  }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    body {
+        font-size: 16px;
+    }
 }
 
-
-
-/* Consultas de medios para tamaños de pantalla menores a 768px (móvil) */
 @media (max-width: 767px) {
-  h1 {
-      font-size: 22px;
-  }
-
-  h2 {
-      font-size: 18px;
-  }
-
-  h3 {
-      font-size: 16px;
-  }
-
-  body {
-      font-size: 14px;
-  }
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    body {
+        font-size: 14px;
+    }
 }
+
 
 
