@@ -1,3 +1,14 @@
+@import url('~@fortawesome/fontawesome-free/css/all.css');
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/src/assets/Montserrat/static/Montserrat-Regular.ttf format') ('truetype');
+}
+
+
+
+
+
 .navbar-toggler{
     filter: invert();
   }
@@ -94,3 +105,66 @@ footer a {
 
 
     
+
+
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+    filter: drop-shadow(3px 3px 5px green);
+}
+
+
+* {
+    color: #ebebeb;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p, span, label, a {
+    font-size: 18px;
+}
+
+
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    body {
+        font-size: 14px;
+    }
+}
