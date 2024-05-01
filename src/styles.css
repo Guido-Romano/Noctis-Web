@@ -1,6 +1,9 @@
 @import url('~@fortawesome/fontawesome-free/css/all.css');
 
-
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/src/assets/Montserrat/static/Montserrat-Regular.ttf format') ('truetype');
+}
 
 body {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 50%, rgba(0, 0, 0, 0.75) 100%),
@@ -13,7 +16,7 @@ body {
     color: #ebebeb;
     top: 0;
     left: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 h1, h2, h3, h4 {
@@ -21,14 +24,13 @@ h1, h2, h3, h4 {
     filter: drop-shadow(3px 3px 5px green);
 }
 
+
 * {
     color: #ebebeb;
     font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p, span, label, a, small {
-    font-family: 'Montserrat', sans-serif !important;
-}
+
 
 h1 {
     font-size: 36px;
