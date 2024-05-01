@@ -5,10 +5,14 @@
     src: url('/src/assets/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
 }
 
-
 body {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 50%, rgba(0, 0, 0, 0.75) 100%),
-                url('/assets/fondo.jpg') no-repeat center center fixed;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.35) 50%,
+        rgba(0, 0, 0, 0.75) 100%
+    ),
+        url('/assets/fondo.jpg') no-repeat center center fixed;
     background-size: cover;
     user-select: none;
     overflow-x: hidden;
@@ -18,14 +22,8 @@ body {
     top: 0;
     left: 0;
     font-family: 'Montserrat', sans-serif;
-}
 
-
-
-
-
-/*
-
+    
 * {
     color: #ebebeb;
     font-family: 'Montserrat', sans-serif;
@@ -34,6 +32,7 @@ body {
 h1, h2, h3, h4 {
     font-weight: bold;
     filter: drop-shadow(3px 3px 5px green);
+    font-family: 'Montserrat'; 
 }
 
 h1 {
@@ -52,6 +51,15 @@ p, span, label, a {
     font-size: 18px;
 }
 
+.snip1544:hover
+.snip1544.hover  {
+
+  border-color: rgba(230, 110, 50, 0.85);
+  box-shadow: 3px 3px 1px rgba(230, 110, 50, 0.3);
+  filter: brightness(120%) drop-shadow(1px 1px 6px rgb(230, 110, 50, 0.65));
+}
+
+}
 
 
 @media (max-width: 1024px) and (min-width: 768px) {
@@ -83,19 +91,3 @@ p, span, label, a {
         font-size: 14px;
     }
 }
-
-*/
-
-
-
-/*@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');*/
-/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('/src/assets/Montserrat/static/Montserrat-Regular.ttf format') ('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-*/
