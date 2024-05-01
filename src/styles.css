@@ -1,11 +1,6 @@
 @import url('~@fortawesome/fontawesome-free/css/all.css');
 
-@font-face {
-    font-family: 'Montserrat';
-    src: url('/src/assets/Montserrat/static/Montserrat-Regular.ttf format') ('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 body {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 50%, rgba(0, 0, 0, 0.75) 100%),
@@ -88,4 +83,13 @@ p, span, label, a {
 
 
 /*@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');*/
-/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/src/assets/Montserrat/static/Montserrat-Regular.ttf format') ('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
