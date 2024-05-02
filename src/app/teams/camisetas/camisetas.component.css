@@ -1,9 +1,9 @@
 img {
-    filter: drop-shadow(7px 7px 10px green);
-    scale: 0.85;
-    transition: filter 0.5s ease-in-out, scale 0.5s ease-in-out;
+filter: drop-shadow(7px 7px 10px green);
+scale: 0.85;
+transition: filter 0.5s ease-in-out, scale 0.5s ease-in-out;
 }
 
 img:hover {
-    filter: drop-shadow(7px 7px 10px orange);
+filter: drop-shadow(7px 7px 10px orange);
 }

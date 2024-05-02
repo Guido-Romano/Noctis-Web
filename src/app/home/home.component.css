@@ -1,9 +1,9 @@
 .snip1544 {
   color: #ffffff;
   cursor: pointer;
-  padding: 0px 40px;
+  padding: 0 40px;
   display: inline-block;
-  margin: 0px 30px;
+  margin: 0 30px;
   text-transform: uppercase;
   line-height: 2.7em;
   letter-spacing: 0.5px;
@@ -11,54 +11,49 @@
   outline: none;
   position: relative;
   font-size: 16px;
-  border: 3px solid rgba(0, 128, 0, 0.45); 
+  border: 3px solid rgba(0, 128, 0, 0.45);
   background-color: transparent;
   border-radius: 0 15px 15px;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
   scale: 75%;
   filter: drop-shadow(1px 1px 6px rgba(0, 128, 0, 0.65));
 }
 
-
 .snip1544:hover:before {
   border-color: transparent transparent rgb(2, 76, 3) transparent;
 }
 
-.snip1544:hover
-.snip1544.hover  {
-
+.snip1544:hover,
+.snip1544.hover {
   border-color: rgba(230, 110, 50, 0.85);
   box-shadow: 3px 3px 1px rgba(230, 110, 50, 0.3);
   filter: brightness(120%) drop-shadow(1px 1px 6px rgb(230, 110, 50, 0.65));
 }
 
 .parrafo1 {
-  top: -60px; 
+  top: -60px;
   position: relative;
 }
 
 .primerboton {
-  top: -80px; 
+  top: -80px;
 }
 
-
-.logito{
+.logito {
   scale: 85%;
 }
 
 @media (max-width: 576px) {
   .parrafo1 {
-    top: 30px; 
-    position: relative;
+      top: 30px;
+      position: relative;
   }
 
   .primerboton {
-    top: 10px; 
+      top: 10px;
   }
 
-  
-.logito{
-  scale: 100%;
-}
+  .logito {
+      scale: 100%;
+  }
 }

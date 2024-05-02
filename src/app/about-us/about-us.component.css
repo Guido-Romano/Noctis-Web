@@ -1,64 +1,56 @@
-
-
 @media (max-width: 768px) {
-    .text-container {
-      position: absolute; /* Posiciona el contenedor de forma absoluta */
-      top: 1350px; /* Sitúa el contenedor en el centro vertical del contenedor padre */
-      left: 50%; /* Sitúa el contenedor en el centro horizontal del contenedor padre */
-      transform: translate(-50%, -50%); /* Traduce el contenedor para centrarlo exactamente */
-    }
+  .text-container {
+      position: absolute;
+      top: 1350px;
+      left: 50%;
+      transform: translate(-50%, -50%);
   }
+}
 
 @media (max-width: 576px) {
-    .text-container {
-      position: absolute; /* Posiciona el contenedor de forma absoluta */
-      top: 1500px; /* Sitúa el contenedor en el centro vertical del contenedor padre */
-      left: 50%; /* Sitúa el contenedor en el centro horizontal del contenedor padre */
-      transform: translate(-50%, -50%); /* Traduce el contenedor para centrarlo exactamente */
-    }
+  .text-container {
+      position: absolute;
+      top: 1500px;
+      left: 50%;
+      transform: translate(-50%, -50%);
   }
-  
+}
 
+@media (min-width: 768px) {
+  .text-container {
+      position: absolute;
+      top: 1100px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+}
 
-  @media (min-width: 768px) {
-    .text-container {
-      position: absolute; /* Posiciona el contenedor de forma absoluta */
-      top: 1100px; /* Sitúa el contenedor en el centro vertical del contenedor padre */
-      left: 50%; /* Sitúa el contenedor en el centro horizontal del contenedor padre */
-      transform: translate(-50%, -50%); /* Traduce el contenedor para centrarlo exactamente */
-    }
+@media (min-width: 992px) {
+  .text-container {
+      position: absolute;
+      top: 900px;
+      left: 50%;
+      transform: translate(-50%, -50%);
   }
-  
-  
-  @media (min-width: 992px) {
-    .text-container {
-      position: absolute; /* Posiciona el contenedor de forma absoluta */
-      top: 900px; /* Sitúa el contenedor en el centro vertical del contenedor padre */
-      left: 50%; /* Sitúa el contenedor en el centro horizontal del contenedor padre */
-      transform: translate(-50%, -50%); /* Traduce el contenedor para centrarlo exactamente */
-    }
-  }
-  
-  
-  @media (min-width: 1200px) {
-    .text-container {
-      position: absolute; /* Posiciona el contenedor de forma absoluta */
-      top: 825px; /* Sitúa el contenedor en el centro vertical del contenedor padre */
-      left: 50%; /* Sitúa el contenedor en el centro horizontal del contenedor padre */
-      transform: translate(-50%, -50%); /* Traduce el contenedor para centrarlo exactamente */
-    }
-  }
-  
+}
 
-
-  .container {
-    margin-top: -50px;
+@media (min-width: 1200px) {
+  .text-container {
+      position: absolute;
+      top: 825px;
+      left: 50%;
+      transform: translate(-50%, -50%);
   }
+}
 
-  .logito{
-    scale: 75%;
-  }
+.container {
+  margin-top: -50px;
+}
 
-  .textos {
-    margin-top: -75px;
-  }
+.logito {
+  scale: 75%;
+}
+
+.textos {
+  margin-top: -75px;
+}

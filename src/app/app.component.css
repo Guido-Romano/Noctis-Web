@@ -1,4 +1,4 @@
-.navbar-toggler{
+.navbar-toggler {
     filter: invert();
   }
   
@@ -11,10 +11,14 @@
     background-color: #0e370f !important;
   }
   
-  footer h6,p, span, .text-center {
+  footer h6, footer p, footer span {
     color: #fdf8f0;
   }
+  
 
+  .text-center {
+    color: #fdf8f0;
+  }
 
   .navbar {
     background-color: #0e370f; 
@@ -49,11 +53,6 @@ a:hover i {
 .form-check-input:checked {
   background-color: #fe9f05;
   border-color: #fe9f05;
-}
-
-
-.form-check-input:checked ~ .form-check-label::before {
-  background-color: #fe9f05;
 }
 
 

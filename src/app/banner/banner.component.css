@@ -1,13 +1,12 @@
-/* Estilo para centrar la imagen dentro de su contenedor */
 .image-container {
-    display: flex; /* Convierte el contenedor en un contenedor flexible */
-    justify-content: center; /* Centra la imagen horizontalmente */
-    align-items: center; /* Centra la imagen verticalmente */
-    height: 100vh; /* Altura del contenedor para centrar la imagen verticalmente */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
     position: relative;
     z-index: -1;
-     padding-top: 105px;
-     filter: drop-shadow(1px 1px 6px rgb(0, 128, 0, 0.65));
+    padding-top: 105px;
+    filter: drop-shadow(1px 1px 6px rgb(0, 128, 0, 0.65));
 }
 
 

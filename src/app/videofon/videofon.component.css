@@ -6,7 +6,6 @@ video {
 }
 
 .video-container video {
-    /*object-position: 0px -180px; */
     position: absolute;
     top: 0;
     left: 0;

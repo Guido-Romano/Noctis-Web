@@ -4,7 +4,6 @@ img {
     object-fit: cover; 
 }
 
-
 .carousel-item:nth-child(1) img {
     filter: brightness(95%);
 }
@@ -19,21 +18,17 @@ img {
 }
 
 
-
 @media (min-width: 1440px) {
     .carousel-item:nth-child(1) img {
         object-position: 0px -250px; 
-     
     }
 
     .carousel-item:nth-child(2) img {
         object-position: 0 -420px; 
-     
     }
 
     .carousel-item:nth-child(3) img {
         object-position: 0 -620px; 
-      
     }
 }
 
