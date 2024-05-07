@@ -4,6 +4,8 @@
   transform: translate(-50%, -50%);
 }
 
+
+
 @media (max-width: 768px) {
   .text-container {
     top: 4200px;
@@ -31,6 +33,10 @@
 @media (min-width: 1200px) {
   .text-container {
     top: 1750px;
+  }
+
+  .car {
+    width: 50%;
   }
 }
 

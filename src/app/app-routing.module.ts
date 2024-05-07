@@ -4,7 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { Team1Component } from './teams/team1/team1.component'; 
 import { CreatorsComponent } from './creators/creators.component';
 import { StaffComponent } from './staff/staff.component';
-import { AboutUsComponent } from './about-us/about-us.component'; // Corregido
+import { AboutUsComponent } from './about-us/about-us.component'; 
 
 
 const routes: Routes = [
@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'creators', component: CreatorsComponent },
   { path: 'staff', component: StaffComponent },
   { path: 'about-us', component:  AboutUsComponent},
-  { path: '**', redirectTo: '', pathMatch: 'full'} // Ruta por defecto
+  { path: '**', redirectTo: '', pathMatch: 'full'} 
 ];
 
 

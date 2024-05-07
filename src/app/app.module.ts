@@ -26,6 +26,8 @@ import { VideofonComponent } from './videofon/videofon.component';
 
 
 
+
+
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }

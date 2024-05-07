@@ -1,13 +1,13 @@
-
-app-p {
-  margin: 1px;
+.logito{
+    margin-top: -400px;
+    z-index: 99;
+    scale: 90%;
 }
 
-app-logo {
-  position: absolute;
-  top: 35px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  transform: scale(0.75);
+
+@media (max-width: 576px) {
+    .logito {
+        margin-top: -250px;
+        transform: scale(1.1);
+    }
 }

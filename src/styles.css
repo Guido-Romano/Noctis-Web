@@ -44,7 +44,7 @@ h2 {
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 26px;
 }
 
 p, span, label, a {
@@ -62,6 +62,11 @@ p, span, label, a {
 
 
 @media (max-width: 1024px) and (min-width: 768px) {
+
+    body {
+        font-size: 16px;
+    }
+
     h1 {
         font-size: 28px;
     }
@@ -71,22 +76,23 @@ p, span, label, a {
     h3 {
         font-size: 20px;
     }
-    body {
-        font-size: 16px;
-    }
+ 
 }
 
 @media (max-width: 767px) {
-    h1 {
-        font-size: 22px;
-    }
-    h2 {
-        font-size: 18px;
-    }
-    h3 {
-        font-size: 16px;
-    }
+
     body {
         font-size: 14px;
     }
+    
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+  
 }

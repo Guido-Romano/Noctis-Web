@@ -126,3 +126,13 @@
   filter: brightness(120%) drop-shadow(1px 1px 6px rgb(230, 110, 50, 0.65));
 }
 
+@media (max-width: 576px) {
+
+  .snip1336 figcaption a {
+    transform: translateY(-70px);
+  }
+  .snip1336 {
+    min-height: 540px;
+    max-height: 540px;
+  }
+}

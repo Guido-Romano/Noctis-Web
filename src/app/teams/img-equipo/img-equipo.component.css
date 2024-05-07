@@ -35,7 +35,7 @@ img {
 
 @media (max-width: 575px) {
     img {
-        height: 30vh; /* Establece la altura de la imagen a 20% de la altura del viewport */
-        object-fit: cover; /* Ajusta la imagen para que se recorte según sea necesario */
+        height: 30vh; 
+        object-fit: cover; 
     }
 }
