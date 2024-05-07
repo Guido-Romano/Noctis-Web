@@ -45,9 +45,3 @@ export class PComponent implements AfterViewInit {
 }
 
 }
-
-
-
-
-
-

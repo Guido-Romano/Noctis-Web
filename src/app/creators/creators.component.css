@@ -2,37 +2,31 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 999;
 }
-
 
 
 @media (max-width: 768px) {
   .text-container {
-    top: 4200px;
-  }
-}
-
-@media (max-width: 576px) {
-  .text-container {
-    top: 4300px;
+    top:3325px;
   }
 }
 
 @media (min-width: 768px) {
   .text-container {
-    top: 3850px;
+    top:2850px;
   }
 }
 
 @media (min-width: 992px) {
   .text-container {
-    top: 2300px;
+    top: 1850px;
   }
 }
 
 @media (min-width: 1200px) {
   .text-container {
-    top: 1750px;
+    top: 1700px;
   }
 
   .car {
