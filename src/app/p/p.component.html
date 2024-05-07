@@ -1,6 +1,5 @@
-
-<div class="container text-center mt-5 px-4 mb-4" >
-    <div class="row justify-content-center ">
+<div #pElement class="container text-center mt-5 px-4 mb-4 fade" [ngClass]="visibilityState">
+    <div class="row justify-content-center">
         <div class="col-12">
             <div>
                 <h2 class="mb-4">{{ h2 }}</h2>
@@ -8,8 +7,12 @@
                     {{ paragraph }}
                 </p>
             </div>
+        </div>
     </div>
 </div>
+
+
+
 
 
 

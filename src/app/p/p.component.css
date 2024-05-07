@@ -1,1 +1,14 @@
 
+/* Agrega una transición para la opacidad */
+.fade {
+    transition: opacity 1.25s ease-in-out;
+}
+
+/* Define los estilos de los estados hidden y visible */
+.fade.hidden {
+    opacity: 0;
+}
+
+.fade.visible {
+    opacity: 1;
+}
