@@ -27,4 +27,4 @@ Este proyecto ha sido desarrollado utilizando las siguientes tecnologías:
 
 ---
 
-*Este proyecto ha sido desarrollado para destacar la presencia digital de "Noctis Bellator" y conectar con su comunidad de jugadores y seguidores.*
+*Proyecto desarrollado para destacar la presencia digital de "Noctis Bellator" y conectar con su comunidad.*
