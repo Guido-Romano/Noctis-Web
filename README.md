@@ -22,10 +22,9 @@ Este proyecto ha sido desarrollado utilizando las siguientes tecnologías:
 ## Características
 
 - ✅ **Diseño moderno y visualmente atractivo**
-- ✅ **Información clara y accesible sobre el equipo y su staff**
 - ✅ **Compatible con múltiples dispositivos y navegadores**
 - ✅ **Estructura modular para facilitar futuras escalabilidades**
 
 ---
 
-*Este proyecto ha sido desarrollado con el objetivo de destacar la presencia digital de "Noctis Bellator" y conectar con su comunidad de jugadores y seguidores.*
+*Este proyecto ha sido desarrollado para destacar la presencia digital de "Noctis Bellator" y conectar con su comunidad de jugadores y seguidores.*
